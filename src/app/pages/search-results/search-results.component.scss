@@ -1,0 +1,15 @@
+.search-results {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  table {
+    max-height: 80%;
+    overflow-y: auto;
+    width: 640px;
+  }
+  td span.git-login {
+    vertical-align: 20px;
+  }
+}

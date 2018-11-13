@@ -1,0 +1,8 @@
+<main class="search">
+  <mat-card class="search-card">
+      <mat-form-field>
+      <input matInput #user type="text" placeholder="User">
+    </mat-form-field>
+    <button mat-raised-button (click)="handleSearch(user.value)" color="primary">Search</button>
+  </mat-card>
+</main>
